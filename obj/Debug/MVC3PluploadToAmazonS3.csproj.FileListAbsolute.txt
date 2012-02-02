@@ -1,0 +1,7 @@
+C:\Users\lazaro.fernandes\Desktop\crdeutsch-MVC3PluploadToAmazonS3-de06227\MVC3PluploadToAmazonS3\bin\MVC3PluploadToAmazonS3.dll
+C:\Users\lazaro.fernandes\Desktop\crdeutsch-MVC3PluploadToAmazonS3-de06227\MVC3PluploadToAmazonS3\bin\MVC3PluploadToAmazonS3.pdb
+C:\Users\lazaro.fernandes\Desktop\crdeutsch-MVC3PluploadToAmazonS3-de06227\MVC3PluploadToAmazonS3\bin\EntityFramework.dll
+C:\Users\lazaro.fernandes\Desktop\crdeutsch-MVC3PluploadToAmazonS3-de06227\MVC3PluploadToAmazonS3\bin\EntityFramework.xml
+C:\Users\lazaro.fernandes\Desktop\crdeutsch-MVC3PluploadToAmazonS3-de06227\MVC3PluploadToAmazonS3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lazaro.fernandes\Desktop\crdeutsch-MVC3PluploadToAmazonS3-de06227\MVC3PluploadToAmazonS3\obj\Debug\MVC3PluploadToAmazonS3.dll
+C:\Users\lazaro.fernandes\Desktop\crdeutsch-MVC3PluploadToAmazonS3-de06227\MVC3PluploadToAmazonS3\obj\Debug\MVC3PluploadToAmazonS3.pdb

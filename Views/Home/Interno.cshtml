@@ -1,0 +1,45 @@
+﻿@model MVC3PluploadToAmazonS3.Models.PluploadAmazonS3Model
+@{
+    ViewBag.Title = "Interno";
+}
+<h2>
+    Upload to Amazon S3</h2>
+<div id="uploader" style="width: 50%;">
+    <p>
+        You browser doesn't have Flash, Silverlight, Gears, BrowserPlus or HTML5 support.</p>
+</div>
+@section scriptFiles {
+    <script>
+
+        $(document).ready(function () {
+
+            $("#uploader").plupload({
+                //amazon settings.
+                runtimes: 'flash,silverlight',
+                url: 'Upload',
+                max_file_size: '2mb',
+                multipart: true,
+                multipart_params: {
+                    'key': 'client1/${filename}', // use filename as a key
+                    'Filename': 'client1/${filename}' // adding this to keep consistency across the runtimes
+                },
+                filters: [
+                    { title: "NF-e  (Xml; Txt)", extensions: "xml,txt" }
+                ],
+
+                // Flash settings
+                flash_swf_url: '../../Scripts/plupload/plupload.flash.swf',
+
+                // Silverlight settings
+                silverlight_xap_url: '../../Scripts/plupload/plupload.silverlight.xap',
+                init: {
+                    UploadComplete: function (up, file) {
+                        // Called while a file is being uploaded
+                        alert(file.length + ' notas carregadas');
+                    }
+                }
+            });
+
+        });
+    </script>
+}
